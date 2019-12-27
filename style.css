@@ -1,0 +1,164 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.title {
+    font-weight: 700; 
+    font-size: 2.5em;
+}
+
+.subtitle {
+    font-weight: 700;
+    font-size: 2.3em;
+}
+
+.blue-text {
+  color:#22cdd5;
+  font-weight: bold;
+}
+
+figcaption {
+  background:#EEE;
+  display: block;
+  font-weight: 400;
+  padding: .67em;
+  width: 100%;
+}
+
+.red {
+  color: red;
+  font-weight: 600;
+}
+
+.answer {
+  margin: 0 0 20px;
+  padding: 9px 20px 0 19px;
+  border-left: 1px solid#ddd;
+  color: slategray !important;
+}
+
+.answer p {
+  color:#333;
+  font-size: 1em;
+  letter-spacing: -.02em;
+  line-height: 1.45em;
+  font-style: italic;
+}
+
+.semi-bold {
+    font-weight: 600;
+}
+
+.subtitle2 {
+    font-weight: 700;
+    font-size: 2em;
+}
+
+.yellow {
+    background-color: yellow;
+    font-style: italic;
+    font-weight: 600;
+}
+
+p  {
+    font-size: 1.2em;
+}
+
+.pm {
+    margin: 0px;
+    padding: 0px;    
+}
+
+.depoimento {
+    font-weight: 700;
+    color: #1d1d1d;
+    background: url(images/image_20.png) no-repeat left 8px;
+    padding: 10px 0 0 70px;
+}
+
+.depoimento2 {
+    font-weight: 700;
+    color: #1d1d1d;
+    background: url(images/depoimento2.png) no-repeat left 8px;
+    padding: 0 0 0 70px;
+}
+
+.divbottom {
+    margin: 22px 0;
+}
+
+.btnstick {
+    font-weight: 700;
+    font-size: 1.6vmax;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.checkout {
+    border: 1px solid rgb(52, 116, 255);
+    padding: 10px;
+}
+
+.mg {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.footer {
+    background-color: #2b2b2b; 
+    padding: 40px;
+    text-align: center;
+    width: 100%;
+}
+
+.footer p {
+    color: #bababa;
+    padding: 30px 0 0;
+    line-height: 20px;
+    font-size: 1em;
+}
+.pulse {
+    animation:pulse .7s infinite;
+    margin:0 auto;
+    display:table;
+    animation-direction:alternate;
+    -webkit-animation-name:pulse;
+    animation-name:pulse
+   }
+   @-webkit-keyframes pulse {
+        0% {
+            -webkit-transform:scale(1)
+        }
+        100% {
+            -webkit-transform:scale(1.1)
+        }
+   }
+   @keyframes pulse {
+    0% {
+     transform:scale(1)
+    }
+    100% {
+     transform:scale(1.1)
+    }
+   }
+
+@media (max-width: 990px) {
+    #nav1 {
+        display: flex;
+    }
+
+    #nav2 {
+        display: none;
+    }
+}
+
+@media (max-width: 640px){
+    .videoCont{
+        margin-bottom: 20px;
+    }
+    .mg{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+}
